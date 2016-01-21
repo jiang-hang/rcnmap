@@ -13,3 +13,6 @@ install_git("https://github.com/jiang-hang/rcnmap")
 library(rcnmap)
 cnmap(c("hubei","shanghai","gansu"),c("red","blue","yellow"))
 ```
+
+##contact
+[contact the author](http://www.bagualu.net)
