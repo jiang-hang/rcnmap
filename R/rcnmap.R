@@ -33,7 +33,7 @@ cnmap<-function(name=NA,color=NA,title="China Map",fill=NA)
 	}
         mymap=mymap+theme_grey() + labs(title=title,x="",y="")
 
-	if(! is.na(name)){
+	if(length(name) >= 1){
 	    for(k in seq(1:length(name))) {
 	        provIdx=which(rcnmapEnv$cnmapdata$NAME == name[k])
                 if(length(provIdx) > 0) {
