@@ -11,8 +11,12 @@ install_git("https://github.com/jiang-hang/rcnmap")
 ##usage
 ```
 library(rcnmap)
-cnmap(c("hubei","shanghai","gansu"),c("red","blue","yellow"))
+cnmap(c("hubei","shanghai","gansu"),c("red","red","yellow"))
 ```
+
+output:
+
+![](http://www.bagualu.net/wordpress/wp-content/uploads/2016/01/cnmap.png)
 
 ##contact
 [contact the author](http://www.bagualu.net)
