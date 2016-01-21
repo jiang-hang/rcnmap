@@ -1,0 +1,12 @@
+Package: rcnmap
+Type: Package
+Title: Chinamap Utils
+Version: 1.0.0
+Date: 2015-11-28
+Author: Xuehui YANG
+Maintainer: Xuehui YANG <jianghang@bagualu.net>
+Description: utils for chinamap.
+Depends: R (>= 3.2.2)
+Imports: ggplot2(>= 2.0.0), maptools(>= 0.8-37), mapproj(>= 1.2-4)
+License: Apache License 2.0
+RoxygenNote: 5.0.1
